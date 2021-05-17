@@ -17,11 +17,11 @@
             <th>Giá sau khi đã được chiết khấu</th>
         </tr>
         <tr>
-            <td><?php echo $describe ?></td>
-            <td><?php echo $price ?></td>
-            <td><?php echo $discount ?></td>
-            <td><?php echo $discountAmount ?></td>
-            <td><?php echo $discountPrice ?></td>
+            <td>{{$describe}}</td>
+            <td>{{$price}}</td>
+            <td>{{$discount}}</td>
+            <td>{{$discountAmount}}</td>
+            <td>{{$discountPrice}}</td>
         </tr>
     </table>
 </body>

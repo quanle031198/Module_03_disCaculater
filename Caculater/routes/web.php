@@ -21,7 +21,7 @@ Route::post('/display-discount', function (\Illuminate\Http\Request $request) {
     $describe = $request->describe;
     $price = $request->price;
     $discount = $request->discount;
-    $discountAmount = $price * $request->discount * 0.1;
+    $discountAmount = $price * $request->discount * 0.01;
     $discountPrice = $price - $discountAmount;
     return view('display-discount', compact(['discountPrice', 'discountAmount', 'describe', 'price', 'discount']));
 });
